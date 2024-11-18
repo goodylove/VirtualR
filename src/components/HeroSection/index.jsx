@@ -7,7 +7,7 @@ function HeroSection() {
     return (
         <div className={`flex items-center mt-6 lg:mt-20 flex-col ${inView &&  "animate-fade-right animate-twice  animate-duration-800 animate-delay-75"  }`} ref={ref} >
             <h1 className="lg:text-7xl sm:text-6xl text-4xl   text-center  ">
-                VirtualR build tools <span className="bg-gradient-to-r from-orange-500 text-transparent bg-clip-text to-orange-800"> {""} for  <br/> developers</span>
+                VirtualR build tools <span className="bg-gradient-to-r from-orange-500 text-transparent bg-clip-text to-orange-800"> {""} for developers</span>
             </h1>
             <p className="text-neutral-400 text-center mt-10 text-lg max-w-4xl animate-pulse animate-delay-0">
                 Empowre your creativity and bring your VR app ideas in to
